@@ -1,0 +1,9 @@
+<tool name="boost_header" version="${BOOST_VER}">
+  <info url="http://www.boost.org"/>
+  <client>
+    <environment name="BOOSTHEADER_BASE" default="${BOOST_PREFIX}"/>
+    <environment name="INCLUDE" default="$$BOOSTHEADER_BASE/include"/>
+  </client>
+  <runtime name="ROOT_INCLUDE_PATH" value="$$INCLUDE" type="path"/>
+  <use name="root_cxxdefaults"/>
+</tool>

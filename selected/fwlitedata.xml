@@ -1,0 +1,8 @@
+<tool name="fwlitedata" version="25-cms">
+  <client>
+    <environment name="CMSSWDATA_BASE" default="/Users/gartung/CMSSW/osx1011_amd64_gcc540/cms"/>
+    <environment name="CMSSW_DATA_PATH" default="$CMSSWDATA_BASE"/>
+  </client>
+  <runtime name="CMSSW_DATA_PATH" value="$CMSSWDATA_BASE" handler="warn" type="path"/>
+<runtime name="CMSSW_SEARCH_PATH" default="/Users/gartung/CMSSW/osx1011_amd64_gcc540/cms/data-Fireworks-Geometry/V07-05-01-cms" handler="warn" type="path"/>
+</tool>

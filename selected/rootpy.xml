@@ -1,0 +1,5 @@
+<tool name="rootpy" version="${ROOT_VER}">
+  <info url="http://root.cern.ch/root/"/>
+  <lib name="PyROOT"/>
+  <use name="rootgraphics"/>
+</tool>

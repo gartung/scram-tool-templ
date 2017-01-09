@@ -1,0 +1,11 @@
+  <tool name="openssl" version="${OPENSSL_VER}">
+    <lib name="ssl"/>
+    <lib name="crypto"/>
+    <client>
+      <environment name="OPENSSL_BASE" default="${OPENSSL_PREFIX}"/>
+      <environment name="INCLUDE" default="$$OPENSSL_BASE/include"/>
+      <environment name="LIBDIR" default="4$OPENSSL_BASE/lib"/>
+    </client>
+    <runtime name="ROOT_INCLUDE_PATH" value="$$INCLUDE" type="path"/>
+    <use name="root_cxxdefaults"/>
+  </tool>

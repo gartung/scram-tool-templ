@@ -1,0 +1,11 @@
+  <tool name="opengl" version="XFree4.2">
+    <lib name="GL"/>
+    <lib name="GLU"/>
+    <use name="x11"/>
+    <environment name="ORACLE_ADMINDIR" default="/etc"/>
+    <client>
+      <environment name="OPENGL_BASE" default="/System/Library/Frameworks/OpenGL.framework/Versions/A"/>
+      <environment name="INCLUDE"     default="$$OPENGL_BASE/Headers"/>
+      <environment name="LIBDIR"      default="$$OPENGL_BASE/Libraries"/>
+    </client>
+  </tool>

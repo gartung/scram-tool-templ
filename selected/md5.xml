@@ -1,0 +1,9 @@
+<tool name="md5" version="${MD5_VER}">
+  <info url="https://tls.mbed.org/md5-source-code"/>
+   <lib name="cms-md5"/>
+  <client>
+    <environment name="MD5_BASE" default="${MD5_PREFIX}"/>
+    <environment name="LIBDIR" default="$$MD5_BASE/lib"/>
+    <environment name="INCLUDE" default="$$MD5_BASE/include"/>
+    </client>  
+</tool>
