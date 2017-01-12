@@ -19,7 +19,7 @@
     <flags CXXFLAGS="-Werror=return-local-addr"/>
     <flags CXXFLAGS="-Werror=switch -fdiagnostics-show-option"/>
     <flags CXXFLAGS="-Wno-unused-local-typedefs -Wno-attributes -Wno-psabi"/>
-    <flags CXXFLAGS="-I${SELF_INC}"
+    <flags CXXFLAGS="-I${SELF_INC}"/>
     <flags CXXFLAGS="-mmacosx-version-min=10.8 -stdlib=libc++"/> 
     <flags LDFLAGS="-Wl,-commons -Wl,use_dylibs -Wl,-rpath -Wl,${SELF_LIB} -Wl,-headerpad_max_install_names  -stdlib=libc++"/>
     <flags CXXSHAREDFLAGS="-shared -dynamic -single_module -arch x86_64 "/>
