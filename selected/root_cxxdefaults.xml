@@ -1,5 +1,6 @@
 <tool name="root_cxxdefaults" version="${ROOT_VER}">
-  <runtime name="ROOT_GCC_TOOLCHAIN" value="${GCC_PREFIX}" type="path"/>
+  <runtime name="ROOT_GCC_TOOLCHAIN" value="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr" type="path"/>
+  <runtime name="ROOT_INCLUDE_PATH" value="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/" type="path"/>
   <runtime name="ROOT_INCLUDE_PATH" value="${GCC_PREFIX}/include/c++/${GCC_VER}" type="path"/>
   <runtime name="ROOT_INCLUDE_PATH" value="${GCC_PREFIX}/include/c++/${GCC_VER}/${GCC_MACHINE}" type="path"/>
   <runtime name="ROOT_INCLUDE_PATH" value="${GCC_PREFIX}/include/c++/${GCC_VER}/backward" type="path"/>

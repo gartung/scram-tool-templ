@@ -6,6 +6,7 @@
     <environment name="INCLUDE"        default="$$ROOTCLING_BASE/include"/>
   </client>
   <use name="root_interface"/>
+  <use name="root_cxxdefaults"/>
   <use name="sockets"/>
   <use name="pcre"/>
   <use name="zlib"/>
