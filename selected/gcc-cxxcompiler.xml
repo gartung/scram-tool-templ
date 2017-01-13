@@ -19,7 +19,7 @@
     <flags CXXFLAGS="-Wno-unused-local-typedefs -Wno-attributes"/>
     <flags CXXFLAGS="-I${SELF_INC}"/>
     <flags CXXFLAGS="-mmacosx-version-min=10.8 -stdlib=libc++"/> 
-    <flags LDFLAGS="-Wl,-commons -Wl,use_dylibs -Wl,-rpath -Wl,${SELF_LIB} -Wl,-headerpad_max_install_names  -stdlib=libc++"/>
+    <flags LDFLAGS="-Wl,-commons -Wl,use_dylibs -Wl,-rpath -Wl,${SELF_LIB} -Wl,-headerpad_max_install_names  -Wl,-stdlib=libc++"/>
     <flags CXXSHAREDFLAGS="-shared -dynamic -single_module -arch x86_64 "/>
     <flags LD_UNIT=" -r "/>
     <runtime name="DYLD_LIBRARY_PATH" value="$$GCC_CXXCOMPILER_BASE/lib" type="path"/>
