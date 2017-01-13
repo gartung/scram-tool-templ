@@ -1,9 +1,9 @@
 <tool name="root_cxxdefaults" version="${ROOT_VER}">
   <runtime name="ROOT_GCC_TOOLCHAIN" value="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain" type="path"/>
-  <runtime name="ROOT_INCLUDE_PATH" value="$${ROOT_GCC_TOOLCHAIN}/usr/include/c++/v1" type="path"/>
+  <runtime name="ROOT_INCLUDE_PATH" value="$$ROOT_GCC_TOOLCHAIN/usr/include/c++/v1" type="path"/>
   <runtime name="ROOT_INCLUDE_PATH" value="/usr/local/include" type="path"/>
-  <runtime name="ROOT_INCLUDE_PATH" value="$${ROOT_GCC_TOOLCHAIN}/usr/lib/clang/8.0.0/include" type="path"/>
-  <runtime name="ROOT_INCLUDE_PATH" value="$${ROOT_GCC_TOOLCHAIN}/usr/include/" type="path"/>
+  <runtime name="ROOT_INCLUDE_PATH" value="$$ROOT_GCC_TOOLCHAIN/usr/lib/clang/8.0.0/include" type="path"/>
+  <runtime name="ROOT_INCLUDE_PATH" value="$$ROOT_GCC_TOOLCHAIN/usr/include/" type="path"/>
   <runtime name="ROOT_INCLUDE_PATH" value="/usr/include" type="path"/>
   <runtime name="ROOT_INCLUDE_PATH" value="/System/Library/Frameworks" type="path"/>
   <runtime name="ROOT_INCLUDE_PATH" value="/Library/Frameworks" type="path"/>
