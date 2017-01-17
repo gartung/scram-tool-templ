@@ -5,7 +5,7 @@
     <flags CPPDEFINES="GNU_GCC _GNU_SOURCE   "/>
     <flags CXXSHAREDOBJECTFLAGS="-fPIC   "/>
     <flags CXXFLAGS="-O2 -pthread -pipe -Werror=main -Werror=pointer-arith"/>
-    <flags CXXFLAGS="-Werror=overlength-strings -Wno-vla  -arch x86_64  -std=c++1z -ftree-vectorize -Wstrict-overflow -Werror=array-bounds -Werror=type-limits -fvisibility-inlines-hidden -fno-math-errno --param vect-max-version-for-alias-checks=50 -msse3"/>
+    <flags CXXFLAGS="-Werror=overlength-strings -Wno-vla  -arch x86_64  -std=c++14 -ftree-vectorize -Wstrict-overflow -Werror=array-bounds -Werror=type-limits -fvisibility-inlines-hidden -fno-math-errno -msse3"/>
     <flags CXXFLAGS="-felide-constructors -fmessage-length=0"/>
     <flags CXXFLAGS="-Wall -Wno-long-long -Wreturn-type"/>
     <flags CXXFLAGS="-Wunused -Wparentheses -Wno-deprecated -Werror=return-type"/>
@@ -19,7 +19,7 @@
     <flags CXXFLAGS="-Wno-unused-local-typedefs -Wno-attributes"/>
     <flags CXXFLAGS="-I${SELF_INC}"/>
     <flags CXXFLAGS="-mmacosx-version-min=10.8 -stdlib=libc++"/> 
-    <flags LDFLAGS="-Wl,-commons -Wl,use_dylibs -Wl,-headerpad_max_install_names"/>
+    <flags LDFLAGS="-Wl,-commons -Wl,use_dylibs -Wl,-headerpad_max_install_names -Wno-error=potentially-evaluated-expression"/>
     <flags CXXSHAREDFLAGS="-shared -dynamic -single_module -arch x86_64 "/>
     <flags LD_UNIT=" -r "/>
     <runtime name="DYLD_LIBRARY_PATH" value="$$GCC_CXXCOMPILER_BASE/lib" type="path"/>
