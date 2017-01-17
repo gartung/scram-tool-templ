@@ -16,10 +16,10 @@
     <flags CXXFLAGS="-Werror=narrowing -Werror=uninitialized"/>
     <flags CXXFLAGS="-Werror=reorder"/>
     <flags CXXFLAGS="-Werror=unused-variable -Werror=conversion-null"/>
-    <flags CXXFLAGS="-Wno-unused-local-typedefs -Wno-attributes"/>
+    <flags CXXFLAGS="-Wno-unused-local-typedefs -Wno-attributes -Wno-error=potentially-evaluated-expression"/>
     <flags CXXFLAGS="-I${SELF_INC}"/>
     <flags CXXFLAGS="-mmacosx-version-min=10.8 -stdlib=libc++"/> 
-    <flags LDFLAGS="-Wl,-commons -Wl,use_dylibs -Wl,-headerpad_max_install_names -Wno-error=potentially-evaluated-expression"/>
+    <flags LDFLAGS="-Wl,-commons -Wl,use_dylibs -Wl,-headerpad_max_install_names"/>
     <flags CXXSHAREDFLAGS="-shared -dynamic -single_module -arch x86_64 "/>
     <flags LD_UNIT=" -r "/>
     <runtime name="DYLD_LIBRARY_PATH" value="$$GCC_CXXCOMPILER_BASE/lib" type="path"/>
