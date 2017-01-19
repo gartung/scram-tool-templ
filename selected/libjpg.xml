@@ -1,7 +1,6 @@
 <tool name="libjpeg-turbo" version="${LIBJPEG_VER}">
   <info url="http://libjpeg-turbo.virtualgl.org"/>
   <lib name="jpeg"/>
-  <lib name="turbojpeg"/>
   <client>
     <environment name="LIBJPEG_TURBO_BASE" default="${LIBJPEG_PREFIX}"/>
     <environment name="LIBDIR" default="$$LIBJPEG_TURBO_BASE/lib"/>
