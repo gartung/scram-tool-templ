@@ -22,7 +22,7 @@
     <flags LDFLAGS="-Wl,-commons -Wl,use_dylibs -Wl,-headerpad_max_install_names"/>
     <flags CXXSHAREDFLAGS="-shared -dynamic -single_module -arch x86_64 "/>
     <flags LD_UNIT=" -r "/>
-    <architecture name="!_clang8"/>
+    <architecture name="!_clang8">
         <runtime name="DYLD_LIBRARY_PATH" value="$$GCC_CXXCOMPILER_BASE/lib" type="path"/>
         <runtime name="DYLD_LIBRARY_PATH" value="$$GCC_CXXCOMPILER_BASE/lib" type="path"/>
         <runtime name="PATH" value="$$GCC_CXXCOMPILER_BASE/bin" type="path"/>
