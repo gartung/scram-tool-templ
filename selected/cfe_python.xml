@@ -1,0 +1,10 @@
+<tool name="cfe_bindings" version="$CFE_VER">
+  <client>
+    <environment name="CFE_BASE" value="$CFE_PREFIX"/>
+    <environment name="INCLUDE" value="$$CFE_BASE/include"/>
+    <environment name="LIBDIR" value="$$CFE_BASE/lib"/>
+  </client>
+  <runtime name="DYLD_FALLBACK_LIBRARY_PATH" value="$$LIBDIR" type="path"/>
+  <runtime name="PYTHONPATH" value="$$CFE_BASE/python" type="path"/>
+<use name="python"/>
+</tool>
