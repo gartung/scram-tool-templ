@@ -4,7 +4,7 @@
     </client>
     <flags CPPDEFINES="GNU_GCC _GNU_SOURCE   "/>
     <flags CXXSHAREDOBJECTFLAGS="-fPIC   "/>
-    <flags CXXFLAGS="-O2 -pthread -pipe -Werror=main -Werror=pointer-arith"/>
+    <flags CXXFLAGS="-g -O2 -pthread -pipe -Werror=main -Werror=pointer-arith"/>
     <flags CXXFLAGS="-Werror=overlength-strings -Wno-vla  -arch x86_64  -std=c++14 -ftree-vectorize -Wstrict-overflow -Werror=array-bounds -Werror=type-limits -fvisibility-inlines-hidden -fno-math-errno -msse3"/>
     <flags CXXFLAGS="-felide-constructors -fmessage-length=0"/>
     <flags CXXFLAGS="-Wall -Wno-long-long -Wreturn-type"/>

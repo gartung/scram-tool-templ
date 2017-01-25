@@ -1,3 +1,4 @@
+
 CommonTools/Statistics
 CommonTools/Utils
 CondFormats/External
@@ -24,9 +25,9 @@ DataFormats/EgammaCandidates
 DataFormats/EgammaReco
 DataFormats/EgammaTrackReco
 DataFormats/FEDRawData
+DataFormats/FTLRecHit
 DataFormats/FWLite
 DataFormats/ForwardDetId
-DataFormats/FTLRecHit
 DataFormats/GEMDigi
 DataFormats/GEMRecHit
 DataFormats/GeometryCommonDetAlgo
@@ -72,8 +73,10 @@ DataFormats/SiStripDetId
 DataFormats/SiStripDigi
 DataFormats/StdDictionaries
 DataFormats/TauReco
+DataFormats/TestObjects/interface/OtherThingCollection.h
 DataFormats/TrackCandidate
 DataFormats/TrackReco
+DataFormats/TrackerCommon
 DataFormats/TrackerRecHit2D
 DataFormats/TrackingRecHit
 DataFormats/TrajectorySeed
@@ -83,6 +86,7 @@ DataFormats/WrappedStdDictionaries
 FWCore/Common
 FWCore/Concurrency
 FWCore/FWLite
+FWCore/Framework
 FWCore/MessageLogger
 FWCore/ParameterSet
 FWCore/PluginManager
@@ -91,7 +95,6 @@ FWCore/PythonUtilities
 FWCore/ServiceRegistry
 FWCore/Utilities
 FWCore/Version
-FWCore/Framework
 FastSimDataFormats/External
 Fireworks/Calo
 Fireworks/Candidates
@@ -105,6 +108,10 @@ Fireworks/SimData
 Fireworks/TableWidget
 Fireworks/Tracks
 Fireworks/Vertices
+Geometry/CaloGeometry
+Geometry/CommonDetUnit
+Geometry/CommonTopologies
+Geometry/GEMGeometry
 PhysicsTools/FWLite
 PhysicsTools/SelectorUtils
 PhysicsTools/Utilities
@@ -113,6 +120,7 @@ SimDataFormats/CrossingFrame
 SimDataFormats/DigiSimLinks
 SimDataFormats/EncodedEventId
 SimDataFormats/GeneratorProducts
+SimDataFormats/JetMatching/interface/JetFlavourInfo.h
 SimDataFormats/PileupSummaryInfo
 SimDataFormats/RPCDigiSimLink
 SimDataFormats/RandomEngine
@@ -123,11 +131,4 @@ SimDataFormats/TrackingHit
 SimDataFormats/Vertex
 Utilities/General
 Utilities/ReleaseScripts
-Geometry/CommonDetUnit
-SimDataFormats/JetMatching/interface/JetFlavourInfo.h
-DataFormats/TrackerCommon
-Geometry/CommonTopologies
-Geometry/GEMGeometry
-Geometry/CaloGeometry
 Utilities/Testing/interface/CppUnit_testdriver.icpp
-DataFormats/TestObjects/interface/OtherThingCollection.h
