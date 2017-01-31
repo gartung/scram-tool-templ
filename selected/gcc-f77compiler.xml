@@ -5,7 +5,7 @@
       <environment name="GCC_F77COMPILER_BASE" default="${GCC_PREFIX}"/>
     </client>
     <flags FFLAGS="-fno-second-underscore -Wunused -Wuninitialized -O2"/>
-    <flags LDFLAGS="-L$$GCC_F77COMPILER_BASE/lib64"/>
+    <flags LDFLAGS="-L$$(GCC_F77COMPILER_BASE)/lib64"/>
     <flags FOPTIMISEDFLAGS="-O2   "/>
     <flags FSHAREDOBJECTFLAGS="-fPIC   "/>
   </tool>
