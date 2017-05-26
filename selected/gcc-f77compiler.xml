@@ -6,6 +6,7 @@
     </client>
     <flags FFLAGS="-fno-second-underscore -Wunused -Wuninitialized -O2"/>
     <flags LDFLAGS="-L$$(GCC_F77COMPILER_BASE)/lib64"/>
+    <flags LDFLAGS="-L$$(GCC_F77COMPILER_BASE)/lib"/>
     <flags FOPTIMISEDFLAGS="-O2   "/>
     <flags FSHAREDOBJECTFLAGS="-fPIC   "/>
   </tool>
