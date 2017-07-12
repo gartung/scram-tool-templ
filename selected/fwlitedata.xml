@@ -4,5 +4,5 @@
     <environment name="CMSSW_DATA_PATH" default="$$CMSSWDATA_BASE"/>
   </client>
   <runtime name="CMSSW_DATA_PATH" value="$$CMSSWDATA_BASE" handler="warn" type="path"/>
-  <runtime name="CMSSW_SEARCH_PATH" default="${FWLITEDATA_PREFIX}/data-Fireworks-Geometry/${FWLITEDATA_VER}/Fireworks/Geometry/data" handler="warn" type="path"/>
+  <runtime name="CMSSW_SEARCH_PATH" default="${FWLITEDATA_PREFIX}/data-Fireworks-Geometry/${FWLITEDATA_VER}" handler="warn" type="path"/>
 </tool>
