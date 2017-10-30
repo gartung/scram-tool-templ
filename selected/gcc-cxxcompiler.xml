@@ -23,7 +23,7 @@
     <flags LDFLAGS="-Wl,-E -Wl,--hash-style=gnu  "/>
     <flags CXXSHAREDFLAGS="-shared -Wl,-E  "/>
     <flags LD_UNIT=" -r -z muldefs "/>
-    <runtime name="LD_LIBRARY_PATH" value="$GCC_CXXCOMPILER_BASE/lib64" type="path"/>
-    <runtime name="LD_LIBRARY_PATH" value="$GCC_CXXCOMPILER_BASE/lib" type="path"/>
-    <runtime name="PATH" value="$GCC_CXXCOMPILER_BASE/bin" type="path"/>
+    <runtime name="LD_LIBRARY_PATH" value="$$GCC_CXXCOMPILER_BASE/lib64" type="path"/>
+    <runtime name="LD_LIBRARY_PATH" value="$$GCC_CXXCOMPILER_BASE/lib" type="path"/>
+    <runtime name="PATH" value="$$GCC_CXXCOMPILER_BASE/bin" type="path"/>
   </tool>
