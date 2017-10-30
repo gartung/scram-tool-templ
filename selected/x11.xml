@@ -1,16 +1,3 @@
   <tool name="x11" version="R6">
-    <client>
-      <environment name="INCLUDE" value="/usr/X11/include"/>
-      <environment name="LIBDIR" value="/usr/X11/lib"/>
-    </client>
-    <runtime name="DYLD_FALLBACK_LIBRARY_PATH" value="$$LIBDIR" type="path"/>
-    <lib name="Xt"/>
-    <lib name="Xpm"/>
-    <lib name="X11"/>
-    <lib name="Xi"/>
-    <lib name="Xext"/>
-    <lib name="Xmu"/>
-    <lib name="ICE"/>
-    <lib name="SM"/>
     <use name="sockets"/>
   </tool>
