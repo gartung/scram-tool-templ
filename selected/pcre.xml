@@ -3,7 +3,6 @@
   <lib name="pcre"/>
   <client>
     <environment name="PCRE_BASE" default="${PCRE_PREFIX}"/>
-    <environment name="LIBDIR" default="$$PCRE_BASE/lib"/>
     <environment name="INCLUDE" default="$$PCRE_BASE/include"/>
   </client>
   <runtime name="ROOT_INCLUDE_PATH" value="$$INCLUDE" type="path"/>

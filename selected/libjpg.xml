@@ -3,7 +3,6 @@
   <lib name="jpeg"/>
   <client>
     <environment name="LIBJPEG_TURBO_BASE" default="${LIBJPEG_PREFIX}"/>
-    <environment name="LIBDIR" default="$$LIBJPEG_TURBO_BASE/lib"/>
     <environment name="INCLUDE" default="$$LIBJPEG_TURBO_BASE/include"/>
   </client>
   <runtime name="ROOT_INCLUDE_PATH" value="$$INCLUDE" type="path"/>

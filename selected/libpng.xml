@@ -3,7 +3,6 @@
   <lib name="png"/>
   <client>
     <environment name="LIBPNG_BASE" default="${LIBPNG_PREFIX}"/>
-    <environment name="LIBDIR" default="$$LIBPNG_BASE/lib"/>
     <environment name="INCLUDE" default="$$LIBPNG_BASE/include"/>
   </client>
   <runtime name="ROOT_INCLUDE_PATH" value="$$INCLUDE" type="path"/>

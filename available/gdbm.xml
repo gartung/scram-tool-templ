@@ -2,7 +2,6 @@
   <lib name="gdbm"/>
   <client>
     <environment name="GDBM_BASE" default="${GDBM_PREFIX}"/>
-    <environment name="LIBDIR" default="$$GDBM_BASE/lib"/>
     <environment name="INCLUDE" default="$$GDBM_BASE/include"/>
   </client>
   <runtime name="ROOT_INCLUDE_PATH" value="$$INCLUDE" type="path"/>

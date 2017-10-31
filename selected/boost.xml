@@ -5,7 +5,6 @@
   <lib name="boost_date_time"/>
   <client>
     <environment name="BOOST_BASE" default="${BOOST_PREFIX}"/>
-    <environment name="LIBDIR" default="$$BOOST_BASE/lib"/>
     <environment name="INCLUDE" default="$$BOOST_BASE/include"/>
   </client>
   <runtime name="CMSSW_FWLITE_INCLUDE_PATH" value="$$BOOST_BASE/include" type="path"/>

@@ -4,7 +4,6 @@
   <lib name="gslcblas"/>
   <client>
     <environment name="GSL_BASE" default="${GSL_PREFIX}"/>
-    <environment name="LIBDIR" default="$$GSL_BASE/lib"/>
     <environment name="INCLUDE" default="$$GSL_BASE/include"/>
   </client>
   <runtime name="ROOT_INCLUDE_PATH" value="$$INCLUDE" type="path"/>

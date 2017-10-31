@@ -3,6 +3,5 @@
   <use name="vdt_headers"/>
   <client>
     <environment name="VDT_BASE" default="${VDT_PREFIX}"/>
-    <environment name="LIBDIR" default="$$VDT_BASE/lib"/>
   </client>
 </tool>

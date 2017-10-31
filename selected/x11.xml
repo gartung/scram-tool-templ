@@ -1,9 +1,7 @@
   <tool name="x11" version="R6">
     <client>
       <environment name="INCLUDE" value="/opt/X11/include"/>
-      <environment name="LIBDIR" value="/opt/X11/lib"/>
     </client>
-    <runtime name="DYLD_FALLBACK_LIBRARY_PATH" value="$$LIBDIR" type="path"/>
     <lib name="Xt"/>
     <lib name="Xpm"/>
     <lib name="X11"/>

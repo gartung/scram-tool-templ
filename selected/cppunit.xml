@@ -2,7 +2,6 @@
   <lib name="cppunit"/>
   <client>
     <environment name="CPPUNIT_BASE" default="$CPPUNIT_PREFIX"/>
-    <environment name="LIBDIR" default="$$CPPUNIT_BASE/lib"/>
     <environment name="INCLUDE" default="$$CPPUNIT_BASE/include"/>
   </client>
   <use name="sockets"/>
