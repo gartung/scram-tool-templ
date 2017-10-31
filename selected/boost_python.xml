@@ -3,6 +3,7 @@
   <lib name="boost_python"/>
   <client>
     <environment name="BOOST_PYTHON_BASE" default="${BOOST_PREFIX}"/>
+    <environment name="LIBDIR" default="$$BOOST_PYTHON_BASE/lib"/>
     <environment name="INCLUDE" default="$$BOOST_PYTHON_BASE/include"/>
   </client>
   <runtime name="ROOT_INCLUDE_PATH" value="$$INCLUDE" type="path"/>

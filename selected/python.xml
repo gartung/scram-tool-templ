@@ -2,6 +2,7 @@
   <lib name="python2.7"/>
   <client>
     <environment name="PYTHON_BASE" default="${PYTHON_PREFIX}"/>
+    <environment name="LIBDIR" default="$$PYTHON_BASE/lib"/>
     <environment name="INCLUDE" default="$$PYTHON_BASE/include/python2.7"/>
     <environment name="PYTHON_COMPILE" default="$$PYTHON_BASE/lib/python2.7/compileall.py"/>
   </client>

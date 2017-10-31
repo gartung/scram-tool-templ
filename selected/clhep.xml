@@ -3,6 +3,7 @@
   <lib name="CLHEP"/>
   <client>
     <environment name="CLHEP_BASE" default="${CLHEP_PREFIX}"/>
+    <environment name="LIBDIR" default="$$CLHEP_BASE/lib"/>
     <environment name="INCLUDE" default="$$CLHEP_BASE/include"/>
   </client>
   <runtime name="CLHEP_PARAM_PATH" value="$$CLHEP_BASE"/>

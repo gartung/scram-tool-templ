@@ -2,6 +2,7 @@
   <lib name="expat"/>
   <client>
     <environment name="EXPAT_BASE" default="${EXPAT_PREFIX}"/>
+    <environment name="LIBDIR" default="$$EXPAT_BASE/lib"/>
     <environment name="INCLUDE" default="$$EXPAT_BASE/include"/>
     <environment name="BINDIR" default="$$EXPAT_BASE/bin"/>
   </client>

@@ -3,6 +3,7 @@
   <lib name="tiff"/>
   <client>
     <environment name="LIBTIFF_BASE" default="${LIBTIFF_PREFIX}"/>
+    <environment name="LIBDIR" default="$$LIBTIFF_BASE/lib"/>
     <environment name="INCLUDE" default="$$LIBTIFF_BASE/include"/>
   </client>
   <runtime name="ROOT_INCLUDE_PATH" value="$$INCLUDE" type="path"/>

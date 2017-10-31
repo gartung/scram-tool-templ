@@ -3,6 +3,7 @@
   <lib name="RooFitCore"/>
   <client>
     <environment name="ROOFIT_BASE" default="${ROOT_PREFIX}"/>
+    <environment name="LIBDIR" default="$$ROOFIT_BASE/lib"/>
     <environment name="INCLUDE" default="$$ROOFIT_BASE/include"/>
   </client>
   <runtime name="ROOFITSYS" value="$$ROOFIT_BASE/"/>
