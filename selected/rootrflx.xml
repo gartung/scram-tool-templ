@@ -4,7 +4,7 @@
     <environment name="ROOTRFLX_BASE" default="${ROOT_PREFIX}"/>
   </client>
   <flags GENREFLEX_GCCXMLOPT="-m64"/>
-  <flags GENREFLEX_CPPFLAGS="-DCMS_DICT_IMPL -D_REENTRANT -DGNUSOURCE -D__STRICT_ANSI__ -stdlib=libc++"/>
+  <flags GENREFLEX_CPPFLAGS="-DCMS_DICT_IMPL -D_REENTRANT -DGNUSOURCE -D__STRICT_ANSI__"/>
   <flags GENREFLEX_ARGS="--deep"/>
   <runtime name="GENREFLEX" value="$$ROOTRFLX_BASE/bin/genreflex"/>
   <use name="root_interface"/>

@@ -4,8 +4,8 @@
     <use name="x11"/>
     <environment name="ORACLE_ADMINDIR" default="/etc"/>
     <client>
-      <environment name="OPENGL_BASE" default="/System/Library/Frameworks/OpenGL.framework/Versions/A"/>
-      <environment name="INCLUDE"     default="$$OPENGL_BASE/Headers"/>
-      <environment name="LIBDIR"      default="$$OPENGL_BASE/Libraries"/>
+      <environment name="OPENGL_BASE" default="/usr"/>
+      <environment name="INCLUDE"     default="$$OPENGL_BASE/include"/>
+      <environment name="LIBDIR"      default="$$OPENGL_BASE/lib64"/>
     </client>
   </tool>
