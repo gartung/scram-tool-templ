@@ -6,4 +6,5 @@
     <environment name="LIBDIR" default="$HDF5_BASE/lib"/>
     <environment name="INCLUDE" default="$HDF5_BASE/include"/>
   </client>
+  <flags SKIP_TOOL_SYMLINKS="1"/>
 </tool>

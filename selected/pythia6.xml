@@ -8,4 +8,5 @@
   </client>
   <use name="pythia6_headers"/>
   <use name="f77compiler"/>
+  <flags SKIP_TOOL_SYMLINKS="1"/>
 </tool>

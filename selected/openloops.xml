@@ -4,4 +4,5 @@
 <environment name="LIBDIR" default="$OPENLOOPS_BASE/lib"/>
 <runtime name="CMS_OPENLOOPS_PREFIX" value="$OPENLOOPS_BASE" type="path"/>
 </client>
+  <flags SKIP_TOOL_SYMLINKS="1"/>
 </tool>

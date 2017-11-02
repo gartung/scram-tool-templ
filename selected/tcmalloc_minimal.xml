@@ -4,4 +4,5 @@
     <environment name="TCMALLOC_MINIMAL_BASE" default="google-perftools/1.6"/>
     <environment name="LIBDIR"                default="$TCMALLOC_MINIMAL_BASE/lib"/>
   </client>
+  <flags SKIP_TOOL_SYMLINKS="1"/>
 </tool>

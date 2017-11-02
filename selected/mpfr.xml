@@ -5,4 +5,5 @@
     <environment name="INCLUDE"   default="$MPFR_BASE/include"/>
     <environment name="LIBDIR"    default="$MPFR_BASE/lib"/>
   </client>
+  <flags SKIP_TOOL_SYMLINKS="1"/>
 </tool>

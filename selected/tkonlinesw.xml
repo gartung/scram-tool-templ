@@ -11,4 +11,5 @@
   <flags CXXFLAGS="-DCMS_TK_64BITS"/>
   <use name="root_cxxdefaults"/>
   <use name="xerces-c"/>
+  <flags SKIP_TOOL_SYMLINKS="1"/>
 </tool>

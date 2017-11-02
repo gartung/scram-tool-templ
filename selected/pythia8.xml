@@ -11,4 +11,5 @@
   <use name="cxxcompiler"/>
   <use name="hepmc"/>
   <use name="lhapdf"/>
+  <flags SKIP_TOOL_SYMLINKS="1"/>
 </tool>

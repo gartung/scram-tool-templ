@@ -12,4 +12,5 @@
   <runtime name="ROOT_INCLUDE_PATH" value="$INCLUDE" type="path"/>
   <runtime name="UTM_XSD_DIR" value="$UTM_BASE"/>
   <use name="root_cxxdefaults"/>
+  <flags SKIP_TOOL_SYMLINKS="1"/>
 </tool>

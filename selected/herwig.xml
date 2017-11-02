@@ -11,4 +11,5 @@
   <use name="f77compiler"/>
   <use name="lhapdf"/>
   <use name="photos"/>
+  <flags SKIP_TOOL_SYMLINKS="1"/>
 </tool>

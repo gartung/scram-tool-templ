@@ -8,4 +8,5 @@
 </client>
 <runtime name="PATH" value="$OPENMPI_BASE/bin" type="path"/>
 <runtime name="OPAL_PREFIX" value="$OPENMPI_BASE"/>
+  <flags SKIP_TOOL_SYMLINKS="1"/>
 </tool>

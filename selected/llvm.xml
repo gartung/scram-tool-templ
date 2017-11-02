@@ -10,4 +10,5 @@
     <flags CXXFLAGS="-D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -O3 "/>
     <flags CXXFLAGS="-fomit-frame-pointer -fPIC -Wno-enum-compare "/>
     <flags CXXFLAGS="-Wno-strict-aliasing -fno-rtti"/>
-  </tool>
+    <flags SKIP_TOOL_SYMLINKS="1"/>
+</tool>

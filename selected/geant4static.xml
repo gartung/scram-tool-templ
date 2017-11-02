@@ -8,4 +8,5 @@
   </client>
   <use name="clhep"/>
   <use name="xerces-c"/>
+  <flags SKIP_TOOL_SYMLINKS="1"/>
 </tool>

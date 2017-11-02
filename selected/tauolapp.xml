@@ -13,4 +13,5 @@
   <use name="f77compiler"/>
   <use name="pythia8"/>
   <use name="lhapdf"/>
+  <flags SKIP_TOOL_SYMLINKS="1"/>
 </tool>

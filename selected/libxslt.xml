@@ -6,4 +6,5 @@
     <environment name="LIBDIR" default="$LIBXSLT_BASE/lib"/>
     <environment name="INCLUDE" default="$LIBXSLT_BASE/include/libxslt"/>
   </client>
+  <flags SKIP_TOOL_SYMLINKS="1"/>
 </tool>

@@ -8,4 +8,5 @@
   <use name="root_cxxdefaults"/>
   <runtime name="PYTHONPATH" value="$YODA_BASE/lib/python2.7/site-packages" type="path"/>
   <runtime name="PATH"       value="$YODA_BASE/bin" type="path"/>
+  <flags SKIP_TOOL_SYMLINKS="1"/>
 </tool>

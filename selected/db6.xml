@@ -7,4 +7,5 @@
     <environment name="BINDIR" default="$$DB6_BASE/bin"/>
   </client>
   <runtime name="PATH" value="$$BINDIR" type="path"/>
+  <flags SKIP_TOOL_SYMLINKS="1"/>
 </tool>

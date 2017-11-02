@@ -7,4 +7,5 @@
     <environment name="INCLUDE" default="$GBL_BASE/include"/>
   </client>
   <use name="eigen"/>
+  <flags SKIP_TOOL_SYMLINKS="1"/>
 </tool>

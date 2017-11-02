@@ -6,4 +6,5 @@
     <environment name="LIBDIR"    default="$GMP_BASE/lib"/>
   </client>
   <use name="mpfr"/>
+  <flags SKIP_TOOL_SYMLINKS="1"/>
 </tool>

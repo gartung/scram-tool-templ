@@ -11,4 +11,5 @@
   <runtime name="PYTHONPATH" value="$$PYTHON_BASE/lib/python2.7" type="path"/>
   <use name="root_cxxdefaults"/>
   <use name="sockets"/>
+  <flags SKIP_TOOL_SYMLINKS="1"/>
 </tool>

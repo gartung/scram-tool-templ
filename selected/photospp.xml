@@ -8,4 +8,5 @@
     <environment name="INCLUDE" default="$PHOTOSPP_BASE/include"/>
   </client>
   <use name="hepmc"/>
+  <flags SKIP_TOOL_SYMLINKS="1"/>
 </tool>

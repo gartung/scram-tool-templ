@@ -7,4 +7,5 @@
 <environment name="LIBDIR" default="$QD_BASE/lib"/>
 <environment name="INCLUDE" default="$QD_BASE/include"/>
 </client>
+  <flags SKIP_TOOL_SYMLINKS="1"/>
 </tool>

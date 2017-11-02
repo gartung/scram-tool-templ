@@ -7,4 +7,5 @@
   </client>
   <use name="hepmc_headers"/>
   <runtime name="CMSSW_FWLITE_INCLUDE_PATH" value="$$HEPMC_BASE/include" type="path"/>
+  <flags SKIP_TOOL_SYMLINKS="1"/>
 </tool>

@@ -6,4 +6,5 @@
   </client>
   <use name="photos_headers"/>
   <use name="f77compiler"/>
+  <flags SKIP_TOOL_SYMLINKS="1"/>
 </tool>
