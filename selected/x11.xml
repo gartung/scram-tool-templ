@@ -13,4 +13,5 @@
     <lib name="ICE"/>
     <lib name="SM"/>
     <use name="sockets"/>
+    <flags SKIP_TOOL_SYMLINKS="1"/>
   </tool>
