@@ -1,7 +1,7 @@
 <tool name="libuuid" version="${LIBUUID_VER}">
   <lib name="uuid"/>
   <client>
-    <environment name="LIBUUID_BASE" default="${LIBUUID_PREFIX}"/>
+    <environment name="LIBUUID_BASE" default="/usr"/>
     <environment name="LIBDIR" default="$$LIBUUID_BASE/lib"/>
     <environment name="INCLUDE" default="$$LIBUUID_BASE/include"/>
   </client>
