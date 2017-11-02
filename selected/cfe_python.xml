@@ -6,5 +6,4 @@
   <runtime name="LD_LIBRARY_PATH" value="$$LIBDIR" type="path"/>
   <runtime name="PYTHONPATH" value="$$CFE_BASE/lib/python2.7/site-packages/" type="path"/>
 <use name="python"/>
-<flags SKIP_TOOL_SYMLINKS="1"/>
 </tool>
