@@ -6,4 +6,5 @@
     <environment name="INCLUDE" default="$$CPPUNIT_BASE/include"/>
   </client>
   <use name="sockets"/>
+<flags SKIP_TOOL_SYMLINKS="1"/>
 </tool>

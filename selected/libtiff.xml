@@ -10,4 +10,5 @@
   <use name="root_cxxdefaults"/>
   <use name="libjpeg-turbo"/>
   <use name="zlib"/>
+<flags SKIP_TOOL_SYMLINKS="1"/>
 </tool>
