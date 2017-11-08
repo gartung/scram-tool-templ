@@ -1,11 +1,11 @@
-<tool name="qtdesigner" version="4.8.7">
+<tool name="qtdesigner" version="${QT_VER}">
   <info url="http://qt-project.org"/>
   <lib name="QtDesigner"/>
   <client>
-    <environment name="QTDESIGNER_BASE" default="qt/4.8.7"/>
-    <environment name="INCLUDE" default="$QTDESIGNER_BASE/include/QtDesigner"/>
+    <environment name="QTDESIGNER_BASE" default="${QT_PREFIX}"/>
+    <environment name="INCLUDE" default="$$QTDESIGNER_BASE/include/QtDesigner"/>
   </client>
-  <runtime name="ROOT_INCLUDE_PATH" value="$QTDESIGNER_BASE/include/QtDesigner" type="path"/>
+  <runtime name="ROOT_INCLUDE_PATH" value="$$QTDESIGNER_BASE/include/QtDesigner" type="path"/>
   <use name="root_cxxdefaults"/>
   <use name="qtbase"/>
   <use name="qt"/>

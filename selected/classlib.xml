@@ -1,9 +1,9 @@
-  <tool name="classlib" version="3.1.3">
+  <tool name="classlib" version="${CLASSLIB_VER}">
     <info url="http://cmsmac01.cern.ch/~lat/exports/"/>
     <client>
-      <environment name="CLASSLIB_BASE" default="classlib/3.1.3"/>
-      <environment name="LIBDIR" default="$CLASSLIB_BASE/lib"/>
-      <environment name="INCLUDE" default="$CLASSLIB_BASE/include"/>
+      <environment name="CLASSLIB_BASE" default="${CLASSLIB_PREFIX}"/>
+      <environment name="LIBDIR" default="$$CLASSLIB_BASE/lib"/>
+      <environment name="INCLUDE" default="$$CLASSLIB_BASE/include"/>
 
       <flags CPPDEFINES="__STDC_LIMIT_MACROS"/>
       <flags CPPDEFINES="__STDC_FORMAT_MACROS"/>
@@ -14,6 +14,6 @@
       <use name="pcre"/>
       <use name="openssl"/>
     </client>
-    <runtime name="ROOT_INCLUDE_PATH" value="$INCLUDE" type="path"/>
+    <runtime name="ROOT_INCLUDE_PATH" value="$$INCLUDE" type="path"/>
     <use name="root_cxxdefaults"/>
   </tool>

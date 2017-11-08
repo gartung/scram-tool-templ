@@ -1,8 +1,8 @@
-<tool name="tensorflow-c" version="1.1.0-fmblme3">
+<tool name="tensorflow-c" version="${TENSORFLOW_C_VER}">
   <lib name="tensorflow"/>
   <client>
-    <environment name="TENSORFLOW_C_BASE" default="tensorflow-c/1.1.0-fmblme3"/>
-    <environment name="LIBDIR" default="$TENSORFLOW_C_BASE/lib"/>
-    <environment name="INCLUDE" default="$TENSORFLOW_C_BASE/include"/>
+    <environment name="TENSORFLOW_C_BASE" default="${TENSORFLOW_C_PREFIX}"/>
+    <environment name="LIBDIR" default="$$TENSORFLOW_C_BASE/lib"/>
+    <environment name="INCLUDE" default="$$TENSORFLOW_C_BASE/include"/>
   </client>
 </tool>

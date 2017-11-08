@@ -1,10 +1,10 @@
-<tool name="qd" version="2.3.13">
+<tool name="qd" version="${QT_VER}">
 <lib name="qd_f_main"/>
 <lib name="qdmod"/>
 <lib name="qd"/>
 <client>
-<environment name="QD_BASE" default="qd/2.3.13"/>
-<environment name="LIBDIR" default="$QD_BASE/lib"/>
-<environment name="INCLUDE" default="$QD_BASE/include"/>
+<environment name="QD_BASE" default="${QD_PREFIX}"/>
+<environment name="LIBDIR" default="$$QD_BASE/lib"/>
+<environment name="INCLUDE" default="$$QD_BASE/include"/>
 </client>
 </tool>

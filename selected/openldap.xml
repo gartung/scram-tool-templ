@@ -1,7 +1,7 @@
-<tool name="openldap" version="2.4.44">
+<tool name="openldap" version="${OPENLDAP_VER}">
   <client>
-    <environment name="OPENLDAP_BASE" default="openldap/2.4.44"/>
-    <environment name="LIBDIR" default="$OPENLDAP_BASE/lib"/>
+    <environment name="OPENLDAP_BASE" default="${OPENLDAP_PREFIX}"/>
+    <environment name="LIBDIR" default="$$OPENLDAP_BASE/lib"/>
   </client>
   <use name="openssl"/>
   <use name="db6"/>

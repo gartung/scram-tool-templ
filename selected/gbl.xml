@@ -1,10 +1,10 @@
-<tool name="gbl" version="V02-01-03-fmblme">
+<tool name="gbl" version="${GBL_VER}">
   <info url="https://www.wiki.terascale.de/index.php/GeneralBrokenLines"/>
   <lib name="GBL"/>
   <client>
-    <environment name="GBL_BASE" default="gbl/V02-01-03-fmblme"/>
-    <environment name="LIBDIR" default="$GBL_BASE/lib"/>
-    <environment name="INCLUDE" default="$GBL_BASE/include"/>
+    <environment name="GBL_BASE" default="${GBL_PREFIX}"/>
+    <environment name="LIBDIR" default="$$GBL_BASE/lib"/>
+    <environment name="INCLUDE" default="$$GBL_BASE/include"/>
   </client>
   <use name="eigen"/>
 </tool>

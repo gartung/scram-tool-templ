@@ -1,9 +1,9 @@
-<tool name="py2-numpy" version="1.12.1-fmblme">
+<tool name="py2-numpy" version="${PY2_NUMPY_VER}">
   <client>
-    <environment name="PY2_NUMPY_BASE" default="py2-numpy/1.12.1-fmblme"/>
+    <environment name="PY2_NUMPY_BASE" default="${PY2_NUMPY_PREFIX}"/>
   </client>
-  <runtime name="PATH" value="$PY2_NUMPY_BASE/bin" type="path"/>
-  <runtime name="PYTHONPATH" value="$PY2_NUMPY_BASE/lib/python2.7/site-packages" type="path"/>
+  <runtime name="PATH" value="$$PY2_NUMPY_BASE/bin" type="path"/>
+  <runtime name="PYTHONPATH" value="$$PY2_NUMPY_BASE/lib/python2.7/site-packages" type="path"/>
   <use name="python"/>
   <use name="zlib"/>
   <use name="lapack"/>

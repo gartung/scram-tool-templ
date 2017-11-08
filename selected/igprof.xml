@@ -1,8 +1,8 @@
-  <tool name="igprof" version="5.9.16-fmblme">
+  <tool name="igprof" version="${IGPROF_VER}">
     <info url="http://igprof.sourceforge.net/"/>
     <client>
-      <environment name="IGPROF_BASE" default="igprof/5.9.16-fmblme"/>
-      <environment name="LIBDIR" default="$IGPROF_BASE/lib"/>
+      <environment name="IGPROF_BASE" default="${IGPROF_PREFIX}"/>
+      <environment name="LIBDIR" default="$$IGPROF_BASE/lib"/>
     </client>
-    <runtime name="PATH" value="$IGPROF_BASE/bin" type="path"/>
+    <runtime name="PATH" value="$$IGPROF_BASE/bin" type="path"/>
   </tool>

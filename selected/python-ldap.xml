@@ -1,10 +1,10 @@
-<tool name="python-ldap" version="2.4.10-fmblme">
+<tool name="python-ldap" version="${PYTHON_LDAP_VER}">
   <info url="http://python-ldap.sourceforge.net/"/>
   <client>
-    <environment name="PYTHON_LDAP_BASE" default="python-ldap/2.4.10-fmblme"/>
-    <environment name="PYTHON_LDAP_PYPATH" default="$PYTHON_LDAP_BASE/lib/python2.7/site-packages"/>
+    <environment name="PYTHON_LDAP_BASE" default="${PYTHON_LDAP_PREFIX}"/>
+    <environment name="PYTHON_LDAP_PYPATH" default="$$PYTHON_LDAP_BASE/lib/python2.7/site-packages"/>
   </client>
-  <runtime name="PYTHONPATH" value="$PYTHON_LDAP_PYPATH" type="path"/>
+  <runtime name="PYTHONPATH" value="$$PYTHON_LDAP_PYPATH" type="path"/>
   <use name="openssl"/>
   <use name="openldap"/>
   <use name="python"/>

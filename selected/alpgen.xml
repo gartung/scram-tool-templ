@@ -1,6 +1,6 @@
-<tool name="alpgen" version="214">
+<tool name="alpgen" version="${ALPGEN_VER}">
   <client>
-    <environment name="ALPGEN_BASE" default="alpgen/214"/>
+    <environment name="ALPGEN_BASE" default="${ALPGEN_PREFIX}"/>
   </client>
-  <runtime name="PATH" value="$ALPGEN_BASE/bin" type="path"/>
+  <runtime name="PATH" value="$$ALPGEN_BASE/bin" type="path"/>
 </tool>

@@ -1,13 +1,13 @@
-<tool name="cgal" version="4.2-fmblme">
+<tool name="cgal" version="${CGAL_VER}">
   <info url="http://www.cgal.org/"/>
   <lib name="CGAL_Core"/>
   <lib name="CGAL"/>
   <client>
-    <environment name="CGAL_BASE" default="cgal/4.2-fmblme"/>
-    <environment name="LIBDIR" default="$CGAL_BASE/lib"/>
-    <environment name="INCLUDE" default="$CGAL_BASE/include"/>
+    <environment name="CGAL_BASE" default="${CGAL_PREFIX}"/>
+    <environment name="LIBDIR" default="$$CGAL_BASE/lib"/>
+    <environment name="INCLUDE" default="$$CGAL_BASE/include"/>
   </client>
-  <runtime name="ROOT_INCLUDE_PATH" value="$INCLUDE" type="path"/>
+  <runtime name="ROOT_INCLUDE_PATH" value="$$INCLUDE" type="path"/>
   <use name="root_cxxdefaults"/>
   <use name="zlib"/>
   <use name="boost_system"/>

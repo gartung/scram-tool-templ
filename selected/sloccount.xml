@@ -1,7 +1,7 @@
-  <tool name="sloccount" version="2.26">
+  <tool name="sloccount" version="${SLOCCOUNT_VER}">
     <info url="http://www.dwheeler.com/sloccount/"/>
     <client>
-      <environment name="SLOCCOUNT_BASE" default="sloccount/2.26"/>
+      <environment name="SLOCCOUNT_BASE" default="${SLOCCOUNT_PREFIX}"/>
     </client>
-    <runtime name="PATH" value="$SLOCCOUNT_BASE/bin" type="path"/>
+    <runtime name="PATH" value="$$SLOCCOUNT_BASE/bin" type="path"/>
   </tool>

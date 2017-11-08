@@ -1,7 +1,7 @@
-  <tool name="doxygen" version="1.8.11-fmblme">
+  <tool name="doxygen" version="${DOXYGEN_VER}">
     <info url="http://www.stack.nl/~dimitri/doxygen/"/>
     <client>
-      <environment name="DOXYGEN_BASE" default="doxygen/1.8.11-fmblme"/>
+      <environment name="DOXYGEN_BASE" default="${DOXYGEN_PREFIX}"/>
     </client>
-    <runtime name="PATH" value="$DOXYGEN_BASE/bin" type="path"/>
+    <runtime name="PATH" value="$$DOXYGEN_BASE/bin" type="path"/>
   </tool>

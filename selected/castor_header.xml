@@ -1,10 +1,10 @@
-<tool name="castor_header" version="2.1.13.9">
+<tool name="castor_header" version="${CASTOR_VER}">
   <client>
-    <environment name="CASTOR_HEADER_BASE" default="castor/2.1.13.9"/>
-    <environment name="INCLUDE" default="$CASTOR_HEADER_BASE/include"/>
-    <environment name="INCLUDE" default="$CASTOR_HEADER_BASE/include/shift"/>
+    <environment name="CASTOR_HEADER_BASE" default="${CASTOR_PREFIX}"/>
+    <environment name="INCLUDE" default="$$CASTOR_HEADER_BASE/include"/>
+    <environment name="INCLUDE" default="$$CASTOR_HEADER_BASE/include/shift"/>
   </client>
-  <runtime name="ROOT_INCLUDE_PATH" value="$CASTOR_HEADER_BASE/include" type="path"/>
-  <runtime name="ROOT_INCLUDE_PATH" value="$CASTOR_HEADER_BASE/include/shift" type="path"/>
+  <runtime name="ROOT_INCLUDE_PATH" value="$$CASTOR_HEADER_BASE/include" type="path"/>
+  <runtime name="ROOT_INCLUDE_PATH" value="$$CASTOR_HEADER_BASE/include/shift" type="path"/>
   <use name="root_cxxdefaults"/>
 </tool>

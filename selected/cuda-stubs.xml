@@ -1,9 +1,9 @@
-<tool name="cuda-stubs" version="9.0.176-fmblme">
+<tool name="cuda-stubs" version="${CUDA_STUBS_VER}">
   <info url="https://developer.nvidia.com/cuda-toolkit"/>
   <lib name="cuda"/>
   <client>
-    <environment name="CUDA_STUBS_BASE" default="cuda/9.0.176-fmblme"/>
-    <environment name="LIBDIR"          default="$CUDA_STUBS_BASE/lib64/stubs"/>
+    <environment name="CUDA_STUBS_BASE" default="${CUDA_STUBS_PREFIX}"/>
+    <environment name="LIBDIR"          default="$$CUDA_STUBS_BASE/lib64/stubs"/>
   </client>
   <flags SKIP_TOOL_SYMLINKS="1"/>
 </tool>

@@ -1,10 +1,10 @@
-<tool name="fftjet" version="1.5.0">
+<tool name="fftjet" version="${FFTJET_VER}">
   <lib name="fftjet"/>
   <client>
-    <environment name="FFTJET_BASE" default="fftjet/1.5.0"/>
-    <environment name="LIBDIR" default="$FFTJET_BASE/lib"/>
-    <environment name="INCLUDE" default="$FFTJET_BASE/include"/>
+    <environment name="FFTJET_BASE" default="${FFTJET_PREFIX}"/>
+    <environment name="LIBDIR" default="$$FFTJET_BASE/lib"/>
+    <environment name="INCLUDE" default="$$FFTJET_BASE/include"/>
   </client>
-  <runtime name="ROOT_INCLUDE_PATH" value="$INCLUDE" type="path"/>
+  <runtime name="ROOT_INCLUDE_PATH" value="$$INCLUDE" type="path"/>
   <use name="root_cxxdefaults"/>
 </tool>

@@ -1,7 +1,7 @@
-<tool name="cvs2git" version="5419-fmblme">
+<tool name="cvs2git" version="${CVS2GIT_VER}">
   <client>
-    <environment name="CVS2GIT_BASE" default="cvs2git/5419-fmblme"/>
+    <environment name="CVS2GIT_BASE" default="${CVS2GIT_PREFIX}"/>
   </client>
-  <runtime name="PYTHONPATH" value="$CVS2GIT_BASE/lib" type="path"/>
-  <runtime name="PATH" value="$CVS2GIT_BASE/bin" type="path"/>
+  <runtime name="PYTHONPATH" value="$$CVS2GIT_BASE/lib" type="path"/>
+  <runtime name="PATH" value="$$CVS2GIT_BASE/bin" type="path"/>
 </tool>

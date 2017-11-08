@@ -1,7 +1,7 @@
-<tool name="tcmalloc" version="1.6">
+<tool name="tcmalloc" version="${GOOGLE_PERFTOOLS_VER}">
   <lib name="tcmalloc"/>
   <client>
-    <environment name="TCMALLOC_BASE" default="google-perftools/1.6"/>
-    <environment name="LIBDIR"        default="$TCMALLOC_BASE/lib"/>
+    <environment name="TCMALLOC_BASE" default="${GOOGLE_PERFTOOLS_PREFIX}"/>
+    <environment name="LIBDIR"        default="$$TCMALLOC_BASE/lib"/>
   </client>
 </tool>

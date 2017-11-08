@@ -1,6 +1,6 @@
-<tool name="lapack" version="3.6.1-fmblme">
+<tool name="lapack" version="${LAPACK_VER}">
   <client>
-    <environment name="LAPACK_BASE" default="lapack/3.6.1-fmblme"/>
-    <environment name="LIBDIR" default="$LAPACK_BASE/lib64"/>
+    <environment name="LAPACK_BASE" default="${LAPACK_PREFIX}"/>
+    <environment name="LIBDIR" default="$$LAPACK_BASE/lib"/>
   </client>
 </tool>

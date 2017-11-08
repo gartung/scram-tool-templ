@@ -1,8 +1,8 @@
-<tool name="py2-cx-oracle" version="5.2.1-fmblme">
+<tool name="py2-cx-oracle" version="${PY2_CX_ORACLE}">
   <client>
-    <environment name="PY2_CX_ORACLE_BASE" default="py2-cx-oracle/5.2.1-fmblme"/>
+    <environment name="PY2_CX_ORACLE_BASE" default="${PY2_CX_ORACLE_PREFIX}"/>
   </client>
-  <runtime name="PYTHONPATH" value="$PY2_CX_ORACLE_BASE/lib/python2.7/site-packages" type="path"/>
+  <runtime name="PYTHONPATH" value="$$PY2_CX_ORACLE_BASE/lib/python2.7/site-packages" type="path"/>
   <use name="python"/>
   <use name="oracle"/>
 </tool>

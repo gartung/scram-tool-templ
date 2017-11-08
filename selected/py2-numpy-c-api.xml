@@ -1,7 +1,7 @@
-<tool name="py2-numpy-c-api" version="1.12.1-fmblme">
+<tool name="py2-numpy-c-api" version="${PY2_NUMPY_VER}">
   <client>
-    <environment name="PY2_NUMPY_C_API_BASE" default="py2-numpy/1.12.1-fmblme"/>
-    <environment name="INCLUDE" default="$PY2_NUMPY_C_API_BASE/c-api/core/include"/>
+    <environment name="PY2_NUMPY_C_API_BASE" default="${PY2_NUMPY_PREFIX}"/>
+    <environment name="INCLUDE" default="$$PY2_NUMPY_C_API_BASE/c-api/core/include"/>
   </client>
   <use name="python"/>
 </tool>

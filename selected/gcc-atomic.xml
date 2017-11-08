@@ -1,6 +1,6 @@
-  <tool name="gcc-atomic" version="6.3.0">
+  <tool name="gcc-atomic" version="${GCC_VER}">
     <lib name="atomic"/>
     <client>
-      <environment name="GCC_ATOMIC_BASE" default="gcc/6.3.0"/>
+      <environment name="GCC_ATOMIC_BASE" default="${GCC_PREFIX}"/>
     </client>
   </tool>

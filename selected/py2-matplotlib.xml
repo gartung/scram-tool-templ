@@ -1,8 +1,8 @@
-<tool name="py2-matplotlib" version="1.5.2-fmblme">
+<tool name="py2-matplotlib" version="${PY2_MATPLOTLIB}">
   <client>
-    <environment name="PY2_MATPLOTLIB_BASE" default="py2-matplotlib/1.5.2-fmblme"/>
+    <environment name="PY2_MATPLOTLIB_BASE" default="${PY2_MATPLOTLIB_PREFIX}"/>
   </client>
-  <runtime name="PYTHONPATH" value="$PY2_MATPLOTLIB_BASE/lib/python2.7/site-packages" type="path"/>
+  <runtime name="PYTHONPATH" value="$$PY2_MATPLOTLIB_BASE/lib/python2.7/site-packages" type="path"/>
   <use name="python"/>
   <use name="zlib"/>
   <use name="libpng"/>

@@ -1,10 +1,10 @@
-<tool name="dcap" version="2.47.8">
+<tool name="dcap" version="${DCAP_VER}">
   <lib name="dcap"/>
   <client>
-    <environment name="DCAP_BASE" default="dcap/2.47.8"/>
-    <environment name="LIBDIR" default="$DCAP_BASE/lib"/>
-    <environment name="INCLUDE" default="$DCAP_BASE/include"/>
+    <environment name="DCAP_BASE" default="${DCAP_PREFIX}"/>
+    <environment name="LIBDIR" default="$$DCAP_BASE/lib"/>
+    <environment name="INCLUDE" default="$$DCAP_BASE/include"/>
   </client>
-  <runtime name="ROOT_INCLUDE_PATH" value="$INCLUDE" type="path"/>
+  <runtime name="ROOT_INCLUDE_PATH" value="$$INCLUDE" type="path"/>
   <use name="root_cxxdefaults"/>
 </tool>

@@ -1,6 +1,6 @@
-<tool name="professor2" version="2.2.1-fmblme3">
+<tool name="professor2" version="${PROFESSOR2_VER}">
 <client>
-<environment name="PROFESSOR2_BASE" default="professor2/2.2.1-fmblme3"/>
+<environment name="PROFESSOR2_BASE" default="${PROFESSOR2_PREFIX}"/>
 </client>
 <use name="py2-numpy"/>
 <use name="py2-sympy"/>
@@ -8,6 +8,6 @@
 <use name="root"/>
 <use name="yoda"/>
 <use name="eigen"/>
-<runtime name="PATH" value="$PROFESSOR2_BASE/bin" type="path"/>
-<runtime name="PYTHONPATH" value="$PROFESSOR2_BASE/lib/python2.7/site-packages" type="path"/>
+<runtime name="PATH" value="$$PROFESSOR2_BASE/bin" type="path"/>
+<runtime name="PYTHONPATH" value="$$PROFESSOR2_BASE/lib/python2.7/site-packages" type="path"/>
 </tool>

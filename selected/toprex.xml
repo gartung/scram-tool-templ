@@ -1,8 +1,8 @@
-<tool name="toprex" version="4.23">
+<tool name="toprex" version="${TOPREX_VER}">
   <lib name="toprex"/>
   <client>
-    <environment name="TOPREX_BASE" default="toprex/4.23"/>
-    <environment name="LIBDIR" default="$TOPREX_BASE/lib"/>
+    <environment name="TOPREX_BASE" default="${TOPREX_PREFIX}"/>
+    <environment name="LIBDIR" default="$$TOPREX_BASE/lib"/>
   </client>
   <use name="toprex_headers"/>
   <use name="f77compiler"/>

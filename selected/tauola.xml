@@ -1,9 +1,9 @@
-<tool name="tauola" version="27.121.5">
+<tool name="tauola" version="${TAUOLA_VER}">
   <lib name="pretauola"/>
   <lib name="tauola"/>
   <client>
-    <environment name="TAUOLA_BASE" default="tauola/27.121.5"/>
-    <environment name="LIBDIR" default="$TAUOLA_BASE/lib"/>
+    <environment name="TAUOLA_BASE" default="${TAUOLA_PREFIX}"/>
+    <environment name="LIBDIR" default="$$TAUOLA_BASE/lib"/>
   </client>
   <use name="f77compiler"/>
   <use name="tauola_headers"/>

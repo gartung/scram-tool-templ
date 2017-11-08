@@ -1,13 +1,13 @@
-<tool name="vincia" version="2.2.01">
+<tool name="vincia" version="${VINCIA_VER}">
   <lib name="vincia"/>
   <lib name="VinciaMG4"/>
   <lib name="VinciaMG5"/>
   <client>
-    <environment name="VINCIA_BASE" default="vincia/2.2.01"/>
-    <environment name="LIBDIR" default="$VINCIA_BASE/lib"/>
-    <environment name="INCLUDE" default="$VINCIA_BASE/include"/>
+    <environment name="VINCIA_BASE" default="${VINCIA_PREFIX}"/>
+    <environment name="LIBDIR" default="$$VINCIA_BASE/lib"/>
+    <environment name="INCLUDE" default="$$VINCIA_BASE/include"/>
   </client>
-  <runtime name="VINCIADATA" value="$VINCIA_BASE/share/Vincia/xmldoc"/>
+  <runtime name="VINCIADATA" value="$$VINCIA_BASE/share/Vincia/xmldoc"/>
   <use name="root_cxxdefaults"/>
   <use name="pythia8"/>
 </tool>

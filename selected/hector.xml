@@ -1,11 +1,11 @@
-<tool name="Hector" version="1.3.4_patch1-fmblme3">
+<tool name="Hector" version="${HECTOR_VER}">
   <info url="http://www.fynu.ucl.ac.be/themes/he/ggamma/hector/"/>
   <lib name="Hector"/>
   <client>
-    <environment name="HECTOR_BASE" default="hector/1.3.4_patch1-fmblme3"/>
-    <environment name="LIBDIR" default="$HECTOR_BASE/lib"/>
-    <environment name="INCLUDE" default="$HECTOR_BASE/include"/>
+    <environment name="HECTOR_BASE" default="${HECTOR_PREFIX}"/>
+    <environment name="LIBDIR" default="$$HECTOR_BASE/lib"/>
+    <environment name="INCLUDE" default="$$HECTOR_BASE/include"/>
   </client>
-  <runtime name="ROOT_INCLUDE_PATH" value="$INCLUDE" type="path"/>
+  <runtime name="ROOT_INCLUDE_PATH" value="$$INCLUDE" type="path"/>
   <use name="root_cxxdefaults"/>
 </tool>

@@ -1,11 +1,11 @@
-<tool name="photospp" version="3.61">
+<tool name="photospp" version="${PHOTOSPP_VER}">
   <lib name="Photospp"/>
   <lib name="PhotosppHepMC"/>
   <lib name="PhotosppHEPEVT"/>
   <client>
-    <environment name="PHOTOSPP_BASE" default="photospp/3.61"/>
-    <environment name="LIBDIR" default="$PHOTOSPP_BASE/lib"/>
-    <environment name="INCLUDE" default="$PHOTOSPP_BASE/include"/>
+    <environment name="PHOTOSPP_BASE" default="${PHOTOSPP_PREFIX}"/>
+    <environment name="LIBDIR" default="$$PHOTOSPP_BASE/lib"/>
+    <environment name="INCLUDE" default="$$PHOTOSPP_BASE/include"/>
   </client>
   <use name="hepmc"/>
 </tool>

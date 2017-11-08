@@ -1,9 +1,9 @@
-<tool name="hdf5" version="1.8.17">
+<tool name="hdf5" version="${HDF5_VER}">
   <info url="https://support.hdfgroup.org/HDF5/"/>
   <lib name="hdf5"/>
   <client>
-    <environment name="HDF5_BASE" default="hdf5/1.8.17"/>
-    <environment name="LIBDIR" default="$HDF5_BASE/lib"/>
-    <environment name="INCLUDE" default="$HDF5_BASE/include"/>
+    <environment name="HDF5_BASE" default="${HDF5_PREFIX}"/>
+    <environment name="LIBDIR" default="$$HDF5_BASE/lib"/>
+    <environment name="INCLUDE" default="$$HDF5_BASE/include"/>
   </client>
 </tool>

@@ -1,4 +1,4 @@
-<tool name="geant4" version="10.02.p02-fmblme2">
+<tool name="geant4" version="${GEANT4_VER}">
   <info url="http://geant4.web.cern.ch/geant4/"/>
   <use name="geant4core"/>
   <use name="geant4vis"/>

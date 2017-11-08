@@ -1,8 +1,8 @@
-<tool name="jimmy" version="4.2-fmblme">
+<tool name="jimmy" version="${JIMMY_VER}">
   <lib name="jimmy"/>
   <client>
-    <environment name="JIMMY_BASE" default="jimmy/4.2-fmblme"/>
-    <environment name="LIBDIR" default="$JIMMY_BASE/lib"/>
+    <environment name="JIMMY_BASE" default="${JIMMY_PREFIX}"/>
+    <environment name="LIBDIR" default="$$JIMMY_BASE/lib"/>
   </client>
   <use name="f77compiler"/>
   <use name="herwig"/>

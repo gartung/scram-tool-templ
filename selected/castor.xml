@@ -1,13 +1,13 @@
-<tool name="castor" version="2.1.13.9">
+<tool name="castor" version="${CASTOR_VER}">
   <lib name="shift"/>
   <lib name="castorrfio"/>
   <lib name="castorclient"/>
   <lib name="castorcommon"/>
   <client>
-    <environment name="CASTOR_BASE" default="castor/2.1.13.9"/>
-    <environment name="LIBDIR" default="$CASTOR_BASE/lib"/>
+    <environment name="CASTOR_BASE" default="${CASTOR_PREFIX}"/>
+    <environment name="LIBDIR" default="$$CASTOR_BASE/lib"/>
   </client>
-  <runtime name="PATH" value="$CASTOR_BASE/bin" type="path"/>
+  <runtime name="PATH" value="$$CASTOR_BASE/bin" type="path"/>
   <use name="castor_header"/>
   <use name="libuuid"/>
 </tool>

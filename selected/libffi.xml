@@ -1,8 +1,8 @@
-<tool name="libffi" version="3.2.1">
+<tool name="libffi" version="${LIBFFI_VER}">
   <lib name="ffi"/>
   <client>
-    <environment name="LIBFFI_BASE" default="libffi/3.2.1"/>
-    <environment name="LIBDIR" default="$LIBFFI_BASE/lib64"/>
-    <environment name="INCLUDE" default="$LIBFFI_BASE/include"/>
+    <environment name="LIBFFI_BASE" default="${LIBFFI_PREFIX}"/>
+    <environment name="LIBDIR" default="$$LIBFFI_BASE/lib"/>
+    <environment name="INCLUDE" default="$$LIBFFI_BASE/include"/>
   </client>
 </tool>

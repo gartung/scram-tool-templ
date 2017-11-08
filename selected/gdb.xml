@@ -1,6 +1,6 @@
-<tool name="gdb" version="7.12.1">
+<tool name="gdb" version="${GDB_VER}">
   <client>
-    <environment name="GDB_BASE" default="gdb/7.12.1"/>
+    <environment name="GDB_BASE" default="${GDB_PREFIX}"/>
   </client>
-  <runtime name="PATH" value="$GDB_BASE/bin" type="path"/>
+  <runtime name="PATH" value="$$GDB_BASE/bin" type="path"/>
 </tool>
