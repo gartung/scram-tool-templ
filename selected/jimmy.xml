@@ -7,4 +7,5 @@
   <use name="f77compiler"/>
   <use name="herwig"/>
   <use name="jimmy_headers"/>
+  <flags SKIP_TOOL_SYMLINKS="1"/>
 </tool>

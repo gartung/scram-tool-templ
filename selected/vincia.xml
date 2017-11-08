@@ -10,4 +10,5 @@
   <runtime name="VINCIADATA" value="$$VINCIA_BASE/share/Vincia/xmldoc"/>
   <use name="root_cxxdefaults"/>
   <use name="pythia8"/>
+  <flags SKIP_TOOL_SYMLINKS="1"/>
 </tool>

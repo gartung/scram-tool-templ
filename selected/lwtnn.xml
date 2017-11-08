@@ -11,4 +11,5 @@
   <use name="root_cxxdefaults"/>
   <use name="eigen"/>
   <use name="boost_system"/>  
+  <flags SKIP_TOOL_SYMLINKS="1"/>
 </tool>

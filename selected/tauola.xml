@@ -7,4 +7,5 @@
   </client>
   <use name="f77compiler"/>
   <use name="tauola_headers"/>
+  <flags SKIP_TOOL_SYMLINKS="1"/>
 </tool>

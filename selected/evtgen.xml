@@ -11,4 +11,5 @@
   <use name="pythia8"/>
   <use name="tauolapp"/>
   <use name="photospp"/>
+  <flags SKIP_TOOL_SYMLINKS="1"/>
 </tool>

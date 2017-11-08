@@ -4,4 +4,5 @@
     <environment name="TCMALLOC_MINIMAL_BASE" default="${GOOGLE_PERFTOOLS_PREFIX}"/>
     <environment name="LIBDIR"                default="$$TCMALLOC_MINIMAL_BASE/lib"/>
   </client>
+  <flags SKIP_TOOL_SYMLINKS="1"/>
 </tool>

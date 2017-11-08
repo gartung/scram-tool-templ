@@ -7,4 +7,5 @@
   <runtime name="CASCADE_PDFPATH" value="$$CASCADE_BASE/share"/>
   <use name="f77compiler"/>
   <use name="cascade_headers"/>
+  <flags SKIP_TOOL_SYMLINKS="1"/>
 </tool>

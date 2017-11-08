@@ -5,4 +5,5 @@
     <environment name="LIBDIR" default="$$TENSORFLOW_C_BASE/lib"/>
     <environment name="INCLUDE" default="$$TENSORFLOW_C_BASE/include"/>
   </client>
+  <flags SKIP_TOOL_SYMLINKS="1"/>
 </tool>

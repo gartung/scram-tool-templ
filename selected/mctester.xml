@@ -11,4 +11,5 @@
   <use name="root_cxxdefaults"/>
   <use name="root"/>
   <use name="HepMC"/>
+  <flags SKIP_TOOL_SYMLINKS="1"/>
 </tool>

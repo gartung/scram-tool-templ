@@ -2,7 +2,7 @@
     <lib name="clang"/>
     <client>
       <environment name="LLVM_BASE" default="${LLVM_PREFIX}"/>
-      <environment name="LIBDIR" default="$$LLVM_BASE/lib64"/>
+      <environment name="LIBDIR" default="$$LLVM_BASE/lib"/>
       <environment name="INCLUDE" default="$$LLVM_BASE/include"/>
     </client>
     <flags LDFLAGS="-Wl,-undefined -Wl,suppress"/>
@@ -10,4 +10,5 @@
     <flags CXXFLAGS="-D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -O3 "/>
     <flags CXXFLAGS="-fomit-frame-pointer -fPIC -Wno-enum-compare "/>
     <flags CXXFLAGS="-Wno-strict-aliasing -fno-rtti"/>
+    <flags SKIP_TOOL_SYMLINKS="1"/>
   </tool>

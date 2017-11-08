@@ -15,4 +15,5 @@
 <use name="fastjet"/>
 <use name="gsl"/>
 <use name="yoda"/>
+  <flags SKIP_TOOL_SYMLINKS="1"/>
 </tool>

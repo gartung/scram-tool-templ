@@ -6,4 +6,5 @@
     <environment name="LIBDIR" default="$$TINYXML_BASE/lib"/>
     <environment name="INCLUDE" default="$$TINYXML_BASE/include"/>
   </client>  
+  <flags SKIP_TOOL_SYMLINKS="1"/>
 </tool>

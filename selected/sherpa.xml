@@ -23,4 +23,5 @@
   <use name="sqlite"/>
   <use name="openmpi"/>
   <use name="openloops"/>
+  <flags SKIP_TOOL_SYMLINKS="1"/>
 </tool>

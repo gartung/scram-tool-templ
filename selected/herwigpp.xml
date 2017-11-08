@@ -5,4 +5,5 @@
     <environment name="INCLUDE" default="$$HERWIGPP_BASE/include"/>
   </client>
   <runtime name="HERWIGPATH" value="$$HERWIGPP_BASE/share/Herwig++"/>
+  <flags SKIP_TOOL_SYMLINKS="1"/>
 </tool>

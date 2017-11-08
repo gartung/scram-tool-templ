@@ -7,4 +7,5 @@
     <environment name="BINDIR" default="$$OPENBLAS_BASE/bin"/>
   </client>
   <runtime name="OPENBLAS_NUM_THREADS" value="1"/>
+  <flags SKIP_TOOL_SYMLINKS="1"/>
 </tool>

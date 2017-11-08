@@ -10,4 +10,5 @@
   <runtime name="PATH" value="$$CASTOR_BASE/bin" type="path"/>
   <use name="castor_header"/>
   <use name="libuuid"/>
+  <flags SKIP_TOOL_SYMLINKS="1"/>
 </tool>

@@ -21,4 +21,5 @@
 </client>
 <use name="qd"/>
 <runtime name="WORKER_DATA_PATH" value="$$BLACKHAT_BASE/share/blackhat/datafiles/" type="path"/>
+  <flags SKIP_TOOL_SYMLINKS="1"/>
 </tool>

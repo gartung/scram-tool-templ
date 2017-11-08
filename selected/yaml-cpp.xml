@@ -7,4 +7,5 @@
     <environment name="INCLUDE" default="$$YAML_CPP_BASE/include"/>
   </client>
   <use name="boost"/>
+  <flags SKIP_TOOL_SYMLINKS="1"/>
 </tool>

@@ -10,4 +10,5 @@
     <use name="sqlite"/>
     <use name="py2-pysqlite"/>
     <use name="py2-pippkgs"/>
+  <flags SKIP_TOOL_SYMLINKS="1"/>
 </tool>

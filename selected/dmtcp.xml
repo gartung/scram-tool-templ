@@ -6,4 +6,5 @@
     <environment name="LIBDIR" default="$$DMTCP_BASE/lib/dmtcp"/>
   </client>
   <runtime name="PATH" value="$$DMTCP_BASE/bin" type="path"/>
+  <flags SKIP_TOOL_SYMLINKS="1"/>
 </tool>

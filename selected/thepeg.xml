@@ -10,4 +10,5 @@
   <use name="root_cxxdefaults"/>
   <use name="lhapdf"/>
   <use name="gsl"/>
+  <flags SKIP_TOOL_SYMLINKS="1"/>
 </tool>

@@ -6,4 +6,5 @@
     <runtime name="PYTHONPATH" value="$PY2_PIP/lib/python2.7/site-packages" type="path"/>
     <runtime name="PATH" value="$PY2_PIP/bin" type="path"/>
   </client>
+  <flags SKIP_TOOL_SYMLINKS="1"/>
 </tool>

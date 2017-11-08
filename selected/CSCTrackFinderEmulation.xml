@@ -7,4 +7,5 @@
   </client>
   <runtime name="CSC_TRACK_FINDER_DATA_DIR" default="$$CSCTRACKFINDEREMULATION_BASE/data/"/>
   <runtime name="CMSSW_SEARCH_PATH" default="$$CSCTRACKFINDEREMULATION_BASE/data" type="path"/>
+  <flags SKIP_TOOL_SYMLINKS="1"/>
 </tool>

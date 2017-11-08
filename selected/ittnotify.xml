@@ -6,4 +6,5 @@
     <environment name="LIBDIR" default="$$ITTNOTIFY_BASE/lib"/>
  </client>
   <runtime name="ROOT_INCLUDE_PATH" value="$$INCLUDE" type="path"/>
+  <flags SKIP_TOOL_SYMLINKS="1"/>
   </tool>

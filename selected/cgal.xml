@@ -13,4 +13,5 @@
   <use name="boost_system"/>
   <use name="gmp"/>
   <use name="mpfr"/>
+  <flags SKIP_TOOL_SYMLINKS="1"/>
 </tool>
