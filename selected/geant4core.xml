@@ -22,7 +22,7 @@
   <flags CXXFLAGS="-DG4MULTITHREADED -DG4USE_STD11 -ftls-model=global-dynamic -pthread"/>
   <client>
     <environment name="GEANT4CORE_BASE" default="${GEANT4CORE_PREFIX}"/>
-    <environment name="LIBDIR" default="$$GEANT4CORE_BASE/lib"/>
+    <environment name="LIBDIR" default="$$GEANT4CORE_BASE/lib64"/>
     <environment name="G4LIB" value="$$LIBDIR"/>
     <environment name="INCLUDE" default="$$GEANT4CORE_BASE/include/Geant4"/>
   </client>
