@@ -2,7 +2,7 @@
     <lib name="clang"/>
     <client>
       <environment name="LLVM_BASE" default="${LLVM_PREFIX}"/>
-      <environment name="LIBDIR" default="$$LLVM_BASE/lib"/>
+      <environment name="LIBDIR" default="$$LLVM_BASE/lib64"/>
       <environment name="INCLUDE" default="$$LLVM_BASE/include"/>
     </client>
     <flags LDFLAGS="-Wl,-undefined -Wl,suppress"/>
