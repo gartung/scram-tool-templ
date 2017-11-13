@@ -1,0 +1,10 @@
+  <tool name="icc-ccompiler" version="${ICC_VERSION}" type="compiler">
+    <use name="gcc-ccompiler"/>
+    <client>
+      <environment name="ICC_CCOMPILER_BASE" default="$${ICC_PREFIX}" handler="warn"/>
+      <environment name="CC" value="$ICC_CCOMPILER_BASE/bin/intel64/icc" handler="warn"/>
+    </client>
+    <architecture name="_mic_">
+      <flags CFLAGS="-mmic"/>
+    </architecture>
+  </tool>
