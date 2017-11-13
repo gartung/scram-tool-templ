@@ -1,0 +1,7 @@
+<tool name="eigen" version="${EIGEN_VER}">
+  <client>
+    <environment name="EIGEN_BASE"   default="${EIGEN_PREFIX}"/>
+    <environment name="INCLUDE"      default="$$EIGEN_BASE/include/eigen3"/>
+  </client>
+  <flags CPPDEFINES="EIGEN_DONT_PARALLELIZE"/>
+</tool>
