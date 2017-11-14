@@ -1,0 +1,8 @@
+<tool name="tcmalloc" version="${GOOGLE_PERFTOOLS_VER}">
+  <lib name="tcmalloc"/>
+  <client>
+    <environment name="TCMALLOC_BASE" default="${GOOGLE_PERFTOOLS_PREFIX}"/>
+    <environment name="LIBDIR"        default="$$TCMALLOC_BASE/lib"/>
+  </client>
+  <flags SKIP_TOOL_SYMLINKS="1"/>
+</tool>
