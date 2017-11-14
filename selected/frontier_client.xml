@@ -1,0 +1,17 @@
+<tool name="frontier_client" version="${FRONTIER_CLIENT_VER}">
+  <lib name="frontier_client"/>
+  <client>
+    <environment name="FRONTIER_CLIENT_BASE" default="${FRONTIER_CLIENT_PREFIX}"/>
+    <environment name="INCLUDE" default="$$FRONTIER_CLIENT_BASE/include"/>
+    <environment name="LIBDIR" default="$$FRONTIER_CLIENT_BASE/lib"/>
+  </client>
+  <runtime name="FRONTIER_CLIENT" value="$$FRONTIER_CLIENT_BASE/"/>
+  <runtime name="ROOT_INCLUDE_PATH" value="$$INCLUDE" type="path"/>
+  <use name="root_cxxdefaults"/>
+  <use name="zlib"/>
+  <use name="openssl"/>
+  <use name="expat"/>
+  <runtime name="PYTHONPATH" value="$$FRONTIER_CLIENT_BASE/python/lib" type="path"/>
+  <use name="python"/>
+  <flags SKIP_TOOL_SYMLINKS="1"/>
+</tool>
