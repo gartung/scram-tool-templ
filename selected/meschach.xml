@@ -2,7 +2,7 @@
   <info url="http://www.meschach.com"/>
   <lib name="meschach"/>
   <client>
-    <environment name="MESCHACH_BASE" default="${MESCACH_PREFIX}"/>
+    <environment name="MESCHACH_BASE" default="${MESCHACH_PREFIX}"/>
     <environment name="LIBDIR" default="$$MESCHACH_BASE/lib"/>
     <environment name="INCLUDE" default="$$MESCHACH_BASE/include"/>
   </client>

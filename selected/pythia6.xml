@@ -1,0 +1,12 @@
+<tool name="pythia6" version="${PYTHIA6_VER}">
+  <lib name="pythia6"/>
+  <lib name="pythia6_dummy"/>
+  <lib name="pythia6_pdfdummy"/>
+  <client>
+    <environment name="PYTHIA6_BASE" default="${PYTHIA6_PREFIX}"/>
+    <environment name="LIBDIR" default="$$PYTHIA6_BASE/lib"/>
+  </client>
+  <use name="pythia6_headers"/>
+  <use name="f77compiler"/>
+  <flags SKIP_TOOL_SYMLINKS="1"/>
+</tool>
