@@ -19,7 +19,6 @@
     <flags CXXFLAGS="-Werror=return-local-addr"/>
     <flags CXXFLAGS="-Werror=switch -fdiagnostics-show-option"/>
     <flags CXXFLAGS="-Wno-unused-local-typedefs -Wno-attributes -Wno-psabi"/>
-    <flags CXXFLAGS="-I${SELF_INC}"/>
     <flags LDFLAGS="-Wl,-E -Wl,--hash-style=gnu  "/>
     <flags CXXSHAREDFLAGS="-shared -Wl,-E  "/>
     <flags LD_UNIT=" -r -z muldefs "/>
